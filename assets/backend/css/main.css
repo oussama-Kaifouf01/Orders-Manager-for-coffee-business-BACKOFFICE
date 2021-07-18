@@ -1,0 +1,264 @@
+.revenue
+{
+    width: 29%;
+    float: left;
+    margin: 0;
+}
+
+.sales_chart
+{
+    float: left;
+}
+.req-paid
+{
+    background-color: #60e7604d;
+}
+#content-wrapper > div.container-fluid > div
+{
+    margin-top: 3% !important;
+}
+.req-ready
+{
+    background-color: #e7e3604d;
+}
+
+
+
+.bread-crumb {
+    cursor: pointer
+}
+
+.bread-crumb:hover {
+    text-decoration: underline
+}
+
+.block {
+    position: relative;
+    background-color: #fff;
+    width: 24%;
+    height: 300px;
+    border: 2px solid #E0E0E0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin-bottom: 25px
+}
+
+.block.active {
+    border: 2px solid #FBC02D;
+    box-shadow: 0 4px 8px 0 #FBC02D
+}
+
+.price {
+    position: absolute;
+    background-color: #E0E0E0;
+    padding: 25px 10px;
+    top: 70%;
+    left: 66%;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px
+}
+
+.price.active {
+    background-color: #FBC02D;
+    box-shadow: 0 3px 6px 0 #FBC02D
+}
+
+.image {
+    width: 150px;
+    height: 231px
+}
+
+.prod-name {
+    font-size: 20px
+}
+
+@media screen and (max-width: 992px) {
+    .block {
+        width: 48%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .block {
+        width: 98%
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+#rangeValue {
+  position: relative;
+  display: block;
+  transform: translate(15%,0%);
+  font-size: 30px;
+  color: #999;
+  font-weight: 400;
+}
+.range {
+  width: 400px;
+  height: 15px;
+  -webkit-appearance: none;
+  background: #111;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #00fd0a;
+  cursor: pointer;
+  border: 4px solid #333;
+  box-shadow: -407px 0 0 400px #00fd0a;
+}
+
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #8C9EFF;
+    background-repeat: no-repeat
+}
+
+.card {
+    z-index: 0;
+    background-color: #ECEFF1;
+    padding-bottom: 20px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 10px
+}
+
+.top {
+    padding-top: 40px;
+    padding-left: 13% !important;
+    padding-right: 13% !important
+}
+
+#progressbar {
+    margin-bottom: 0px;
+    overflow: hidden;
+    color: #455A64;
+    padding-left: 0px;
+    margin-top: 30px
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 13px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+#progressbar .step0:before {
+    font-family: FontAwesome;
+    content: "\f10c";
+    color: #fff
+}
+
+#progressbar li:before {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    background: #C5CAE9;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 12px;
+    background: #C5CAE9;
+    position: absolute;
+    left: 0;
+    top: 16px;                      
+    z-index: -1
+}
+
+#progressbar li:last-child:after {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    left: -50%
+}
+
+#progressbar li:nth-child(2):after,
+#progressbar li:nth-child(3):after 
+#progressbar li:nth-child(4):after {
+    left: -50%
+}
+
+#progressbar li:first-child:after {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    left: 50%
+}
+
+#progressbar li:last-child:after {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+#progressbar li:first-child:after {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #651FFF
+}
+
+#progressbar li.active:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px
+}
+
+.icon-content {
+    padding-bottom: 20px
+}
+
+@media screen and (max-width: 992px) {
+    .icon-content {
+        width: 50%
+    }
+}
+
+#StatusL > div > div > div.modal-body > div > div { margin:1px;     border: none; background: #ECEFF1; }
+#StatusL > div > div > div.modal-body > div {padding: 5px 14px !important;}
+#StatusL > div > div{     background-color: #dadfff;}
+
